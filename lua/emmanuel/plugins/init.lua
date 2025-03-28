@@ -3,6 +3,7 @@ return {
     "christoomey/vim-tmux-navigator",
     "zenbones-theme/zenbones.nvim",
     "rktjmp/lush.nvim",
+    "meatballs/notebook.nvim",
     {
         'mrcjkb/rustaceanvim',
         version = '^5', -- Recommended

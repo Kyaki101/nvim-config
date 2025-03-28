@@ -1,9 +1,13 @@
 return {
-  'briones-gabriel/darcula-solid.nvim',
+  '4513ECHO/vim-colors-hatsunemiku',
   lazy = false,
   priority = 1000,
   opts = {},
   config = function(_, opts)
-    vim.cmd.colorscheme 'darcula-solid'
+    vim.o.termguicolors = true
+    vim.cmd([[colorscheme hatsunemiku]])
+
   end,
 }
+
+
